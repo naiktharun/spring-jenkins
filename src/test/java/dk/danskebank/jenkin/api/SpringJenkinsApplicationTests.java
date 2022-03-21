@@ -11,13 +11,15 @@ class SpringJenkinsApplicationTests {
 	
 	
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
-
+    
+	private final int actual = 5;
+	private final int expected = 5;
 
 	@Test
 	void contextLoads() {
 		
 		logger.info("Test Case executing..");
-		assertEquals(true, true);
+		assertEquals(actual, expected);
 	//test
 
 		
