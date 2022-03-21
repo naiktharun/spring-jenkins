@@ -16,7 +16,7 @@ class SpringJenkinsApplicationTests {
 	private final int expected = 5;
 
 	@Test
-	= contextLoads() {
+	void contextLoads() {
 		
 		logger.info("Test Case executing..");
 		assertEquals(actual, expected);
